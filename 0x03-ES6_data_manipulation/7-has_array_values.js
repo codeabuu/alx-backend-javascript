@@ -1,9 +1,11 @@
+/* eslint-disable array-callback-return */
 export default function hasValuesFromArray(set, list) {
-  let arg = true;
+  let verdict = true;
   list.map((x) => {
     if (!set.has(x)) {
-      arg = false;
+      verdict = false;
     }
   });
-  return arg;
+
+  return verdict;
 }
