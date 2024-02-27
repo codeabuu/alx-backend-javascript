@@ -6,7 +6,7 @@ const PORT = 1245;
 
 mapRoutes(app);
 app.listen(PORT, () => {
-  console.log(`server listening on port ${PORT}`)
+  console.log(`Server listening on PORT ${PORT}`);
 });
 
 export default app;
